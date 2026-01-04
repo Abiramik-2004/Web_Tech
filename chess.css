@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:rgb(119, 163, 119);
+}
+section{
+    background-color: rgb(179, 179, 117);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.black{
+    height:40px;
+    width: 40px;
+    background-color: black;
+}
+.white{
+     height:40px;
+    width: 40px;
+    background-color: white;
+}

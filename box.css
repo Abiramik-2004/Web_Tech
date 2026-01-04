@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+    text-align: center;
+    /*box-sizing: border-box;*/
+    
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 10px 10px 10px 10px;
+    color: aliceblue;
+    background-color: rgb(8, 5, 0);
+    border-radius: 5px;
+}
+.box1{
+    background-color: rgba(104, 6, 22, 0.938);
+    color: #faebd7;
+    height:50px;
+    width: 150px;
+    /*padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    */
+    padding: 15px 20px 15px 25px;
+    border: 3px solid rgb(129, 106, 5);
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.box2{
+    background-color: rgb(8, 3, 56);
+    color: antiquewhite;
+    height: 50px;
+    width: 150px;
+    padding: 15px 20px 15px 25px;
+    /*border:2px solid black ;*/
+    margin:20px;
+    border-color: rgb(102, 68, 16);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    
+}
+.box3{
+    height:50px;
+    width:150px;
+    padding: 15px 20px 15px 25px;
+    border-bottom: 3px dotted black;
+    border-top:3px dashed black ;
+    border-left: 3px double black;
+    border-right: solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    border:3px solid black;
+    margin:30px;
+    background-color: rgb(182, 140, 5);
+    border-radius: 50%;
+}
+.card1{
+    background-color: black;
+    color: aliceblue;
+    padding: ;
+}
+.card2{
+    background-color: black;
+    color: aliceblue;
+} 

@@ -1,0 +1,16 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-image: linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+}
+.outer>img{
+    height: 300px;
+    width:450px;
+    border: 2px solid gray;
+    /*object-fit: cover;*/
+    object-fit:cover;
+}

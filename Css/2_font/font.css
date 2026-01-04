@@ -1,0 +1,18 @@
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color:rgb(119, 14, 14) ;
+    border-radius: 5px;
+}
+button{
+    align-items:center;
+}

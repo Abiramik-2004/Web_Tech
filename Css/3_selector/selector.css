@@ -1,0 +1,12 @@
+header{
+    background-color: aqua;
+    height: 120px;
+    border-radius: 8px;
+}
+#topic{
+    color: rgb(58, 56, 56);
+    text-align: center;
+}
+.para{
+    background-color: aliceblue;
+}

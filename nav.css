@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(168, 76, 10);
+    display:flex;
+    justify-content: space-around;
+    padding:10px 20px;
+}
+header>div{
+    color: azure;
+    display:flex;
+    gap:20px;
+}
+header>div>h1{
+    /*background-color: aqua;*/
+}
+nav{
+    background-color: rgba(179, 78, 5, 0.548);
+    margin-top: 10px;
+    display:flex;
+    justify-content: end;
+}
+nav>ul{
+   
+    display: flex;
+    list-style-type:none ;
+
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(1, 17, 31);
+    text-transform: capitalize;
+    padding: 20px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav>ul>li>a:hover{
+    background-color: rgba(179, 78, 5, 0.548);
+    color: rgb(3, 3, 39);
+}

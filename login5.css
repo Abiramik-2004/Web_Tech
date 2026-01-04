@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background:linear-gradient(black ,gray );
+    padding:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner{
+    height: 75%;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns:1fr 1fr ;
+    width: 70%;
+    transform: translate();
+}
+.right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.log{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+}
+label{
+    padding-top: 10px;
+    color: gray;
+    padding-bottom: 10px;
+    text-align: start;
+}
+input{
+    height: 40px;
+    width: 80%;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.781);
+    border-radius: 10px;
+    font-display: initial;
+    
+}
+input:hover{
+    border:2px solid rgb(117, 25, 25);
+}
+button{
+    margin-top: 20px;
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size:larger;
+}
+.contt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(https://img.freepik.com/free-photo/online-web-design_53876-95309.jpg);
+}
+
+footer{
+    margin-top:60% ;
+    background-color: rgba(240, 255, 255, 0.616);
+    padding: 5px;
+}
+footer>p{
+    text-align: justify;
+}

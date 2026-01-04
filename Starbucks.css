@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+body>nav>div{
+    justify-content: space-around;
+    display:flex;
+}
+.ing{
+    width: 50px;
+    height:50px;
+    
+}
+body>nav>div>a{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: black;
+    text-decoration: none;
+    font-weight:bold ;
+}

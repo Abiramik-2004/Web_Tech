@@ -1,0 +1,30 @@
+section{
+    display: flex;
+}
+h1{
+    background-color: aqua;
+    color: black;
+
+}
+a{
+    
+    background-color: yellow;
+    width: 500px;
+    margin-top: 20px;
+}
+button{
+    padding: 15px 15px 15px 15px;
+    width:100px;
+    background-color:magenta;
+    margin: 20px;
+    
+}
+div{
+    background-color: black;
+    color:azure;
+    justify-content: center;
+    gap:20px;
+}
+div<h2{
+    
+}

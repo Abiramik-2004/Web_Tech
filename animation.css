@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    margin-top: 50px;
+    height: 500px;
+    width:500px;
+    background-color: black;
+    margin-bottom: 100px;
+}
+.inner>.box1{
+    height:50px;
+    width:50px;
+    background-color: azure;
+    animation: bo1 1s ease-in infinite alternate;
+}
+@keyframes bo1{
+    from{
+
+    }
+    to{
+        transform: translate(250px);
+        border-radius: 50px;
+        background-color: aqua;
+    }
+}
+.card{
+    height: 300px;
+    width:300px;
+    background-color: black;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation:bo2 1s linear infinite ;
+   
+}
+
+.card>.box2{
+    height:50px;
+    width:50px;
+    background-color: azure;
+    animation:bo2 1ms linear infinite ;
+
+}
+@keyframes bo2{
+    from{
+
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+.card1{
+    height:300px;
+    width:300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card1>.box2{
+    height:50px;
+    width:50px;
+    background-color: black;
+    animation:bo3 1s ease-in infinite alternate;
+    border-radius: 50px;
+    border-bottom: 2px solid yellow;
+}
+@keyframes bo3{
+    from{
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

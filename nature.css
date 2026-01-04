@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height:80PX;
+    background-color: rgb(89, 38, 136);
+    color:rgb(252, 252, 252);
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+nav>ul>li{
+    display: flex;;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: grab;
+}
+main{
+    height: 300px;
+    background-color: rgb(191, 169, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+main >h1{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-shadow:5px 2px 2px gray;
+}
+main>p{
+    color: rgb(42, 3, 78);
+    font-weight: bold;
+     text-shadow:1px 2px 2px gray;
+}
+main>button{
+    background-color: rgb(62, 6, 114);
+    height:50px;
+    width: 120px;
+    border-radius: 7px;
+    color: antiquewhite;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    border:none;
+    cursor: pointer;
+}
+button:active{
+    background-color: aliceblue;
+    color: rgb(41, 17, 63);
+}
+section{
+    height: calc(100vh - 370px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(77, 28, 122);
+}
+section>.card{
+    /*border: 2px solid black;*/
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px gray;
+    height:250px;
+    width:300px;
+    background-color:rgb(150, 100, 196);
+}
+.card>img{
+    height:60%;
+    width:100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card>h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.card>p{
+    text-align: center;
+    font-weight: bold;
+}

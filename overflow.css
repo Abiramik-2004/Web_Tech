@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.outer{
+
+    height:100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.outer>.inner{
+    height: 400px;
+    width:300px;
+    background-color: aliceblue;
+    padding: 20px;
+    /*
+    overflow: auto;
+    */
+    overflow: scroll;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+

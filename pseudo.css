@@ -1,0 +1,69 @@
+header{
+    background-color: blueviolet;
+    height: 250px;
+}
+.card{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(255, 140, 0, 0.822);
+}
+header>h1{
+    color:blanchedalmond
+}
+.card>h1{
+    color: blueviolet;
+}
+header>#para2{
+    background-color: aqua;
+}
+.card1{
+    height: 400px;
+    width:600px;
+    background-color: chocolate;
+}
+.card1 > .box{
+    height: 300px;
+    width:500px;
+    background-color: cadetblue;
+}
+.card1 > .box > .container{
+    height: 200px;
+    width: 400px;
+    background-color: darkcyan;
+}
+main > button:hover{
+    background-color: olivedrab;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+main>button:active{
+    background-color: blue;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+main>ol>li:nth-child(2n+1){
+    background-color: chartreuse;
+}
+main>ol>li:nth-child(2n){
+    background-color: cadetblue;
+}
+.container > ul >li:nth-child(2n)::marker{
+    color: blue;
+}
+.container> p::selection{
+    background-color: black;
+    color: aquamarine;
+}
+form > input[type="text"]{
+    background-color: rgb(24, 46, 46);
+}
+form > input[type="password"]{
+    background-color: rgb(7, 7, 7);
+}
+form > input[type="email"]{
+    background-color: rgb(4, 77, 77);
+}
+form > input[type="number"]{
+    background-color: rgb(21, 221, 221);
+}
